@@ -36,44 +36,6 @@ flowchart TD
     G --> H[Streamlit UI Export]
 
     B -. existing docs .-> D
-# 🤖 AI Documentation Generator (RAG-Powered)
-
-A production-ready **AI documentation generator** built with **Retrieval-Augmented Generation (RAG)**.
-
-Upload source code and instantly receive **structured API documentation with examples**, powered by **Groq LLM + vector embeddings**.
-
-Designed to help developers convert code into clean, professional documentation with minimal effort.
-
----
-
-## 🚀 Features
-
-✅ Python support (current MVP)  
-✅ RAG Context Engine (ChromaDB)  
-✅ Parallel LLM execution  
-✅ Structured JSON output  
-✅ Markdown + JSON export  
-✅ Streamlit Web UI  
-✅ Persistent documentation store  
-✅ Production-safe architecture  
-
-> ⚠️ Multi-language support (JavaScript, TypeScript, Java, C++, Go) is planned — see Future Enhancements.
-
----
-
-## 🧠 Architecture
-
-```mermaid
-flowchart TD
-    A[Source Code] --> B[Parser]
-    B --> C[Embedding Generator]
-    C --> D[Vector Store]
-    D --> E[RAG Retriever]
-    E --> F[Groq LLM]
-    F --> G[Structured Documentation]
-    G --> H[Streamlit UI Export]
-
-    B -. existing docs .-> D
 ```
 
 ## Core Components
@@ -151,7 +113,7 @@ Exports available as:
 
 While the current version focuses on Python codebases, the architecture is intentionally designed to scale.
 
-# #🌍 Multi-Language Support
+## 🌍 Multi-Language Support
 
  - Planned additions:
 
