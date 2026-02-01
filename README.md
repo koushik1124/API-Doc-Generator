@@ -62,27 +62,29 @@ flowchart TD
 
 ## 🛠 Installation
 
-## 1️⃣ Clone
+ 1️⃣ Clone
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/ai-doc-generator.git
 cd ai-doc-generator
 
-## 2️⃣ Create Virtual Environment
+ 2️⃣ Create Virtual Environment
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 
-## 3️⃣ Install Dependencies
+ 3️⃣ Install Dependencies
 pip install -r requirements.txt
 
-## 4️⃣ Environment Variables
+ 4️⃣ Environment Variables
 
 Create .env:
 
 GROQ_API_KEY=your_key_here
 
-## 5️⃣ Run App
+ 5️⃣ Run App
 streamlit run app.py
+
+---
 
 📄 Output Example
 
@@ -95,6 +97,8 @@ Each function produces:
   "example": "",
   "notes": ""
 }
+
+---
 
 ## 🚀 Future Enhancements
 
@@ -114,6 +118,8 @@ Extend the parser layer to support additional languages such as:
 
 **This can be achieved by adding language-specific parsers and adapting the prompt templates accordingly**.
 
+---
+
 ## 📦 Repository-Wide Documentation
 
  - Instead of single-file processing:
@@ -125,6 +131,8 @@ Extend the parser layer to support additional languages such as:
  - Build project-level API references
 
  - Produce unified Markdown / HTML documentation sites
+
+---
 
 ## 🧠 Advanced RAG Improvements
 
@@ -140,6 +148,8 @@ Extend the parser layer to support additional languages such as:
 
  - Hybrid search (semantic + keyword)
 
+---
+
 ## 🔄 Incremental Documentation Updates
 
  - Avoid regenerating everything:
@@ -149,6 +159,8 @@ Extend the parser layer to support additional languages such as:
  - Regenerate docs only for modified functions
 
  - Maintain historical documentation versions
+
+---
 
 ## 📄 Multiple Export Formats
 
@@ -162,6 +174,8 @@ Extend the parser layer to support additional languages such as:
 
  - MkDocs / Docusaurus integration
 
+---
+
 ## 🔐 Authentication & User Projects
 
  - Enable multi-user workflows:
@@ -173,6 +187,8 @@ Extend the parser layer to support additional languages such as:
  - Saved documentation history
 
  - Cloud-hosted dashboards
+
+---
 
 ## ⚡ Performance & Scalability
 
@@ -188,6 +204,8 @@ Extend the parser layer to support additional languages such as:
 
  - Caching of repeated generations
 
+---
+
 ## 🧪 Testing & CI Integration
 
  - Developer tooling:
@@ -200,6 +218,8 @@ Extend the parser layer to support additional languages such as:
 
  - Coverage reports for undocumented functions
 
+---
+
 ## 🧩 IDE Plugins
 
  - Developer experience improvements:
@@ -209,6 +229,8 @@ Extend the parser layer to support additional languages such as:
  - Inline documentation previews
 
  - One-click doc generation from editor
+
+---
 
 ## 📊 Quality Metrics
 
@@ -221,6 +243,8 @@ Extend the parser layer to support additional languages such as:
  - Readability metrics
 
  - Function complexity indicators
+
+---
 
 ## 🧭 Vision
 
